@@ -12,8 +12,8 @@ int fun(int n)
 int main()
 {
     int r;
-    //Any value entered in the parameters below 100 will give 91 as output because the tracing tree
-    //will bring the function to fun(101) and then 101-10=91
+    //Any value entered in the parameters below 100 will give 91 as output because from the tracing tree
+    //we understand that the function will come to fun(101) and then 101-10=91
     r=fun(95);
     cout<<r;
     return 0;
