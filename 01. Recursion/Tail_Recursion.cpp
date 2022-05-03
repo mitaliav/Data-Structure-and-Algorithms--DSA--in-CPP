@@ -15,6 +15,5 @@ int main()
 {
     int x=3;
     fun(x);
-    // fun1(x);
     return 0;
 }
